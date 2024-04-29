@@ -9,7 +9,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Spinner } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import { persona } from "../../types/persona";
+import  persona  from "../../types/persona";
 import { deleteData, getData } from "../../services/GenericFetch";
 import { ModalFormulario } from "../ModalFormulario/ModalFormulario";
 import swal from 'sweetalert2'

@@ -3,7 +3,7 @@ import { Button, Modal } from "react-bootstrap";
 import * as Yup from "yup";
 import { Form, Formik } from "formik";
 import TextFieldValue from "../TextFildValue/TextFildValue";
-import { persona } from "../../types/persona";
+import  persona  from "../../types/persona";
 import { postData, putData } from "../../services/GenericFetch";
 
 // Definición de las propiedades que recibe el componente
@@ -30,7 +30,7 @@ export const ModalFormulario = ({
     birthdate: "" as any,
     email: "",
     firstName: "",
-    lastName: "",
+    lastName: ""
   };
 
   // URL de la API obtenida desde las variables de entorno
